@@ -51,11 +51,10 @@ corrgram r_dlrinv, lags(20)
 corrgram r_dlrgdp, lags(20)
 corrgram r_dlrcons, lags(20)
 
-drop r_dlrinv r_dlrcons r_dlrgdp
-
 ** No evidence of serial correlation (autocorrelation) for either residual **
 
 /* 1 lag */
+
 var dlrinv dlrgdp dlrcons, lags(1)
 
 predict r_dlrinv, r eq(dlrinv)
