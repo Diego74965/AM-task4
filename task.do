@@ -1,3 +1,4 @@
+log using log.txt, replace text
 /*
 Date: 03/03/2023
 Autor: Diego Ariel Soto Díaz
@@ -124,4 +125,4 @@ matlist e(B)
 
 *** dlrcons = 0.06 dlrinv + 0.52 dlrgdp ***
 * This relation does holds. Proven!
-
+log close
